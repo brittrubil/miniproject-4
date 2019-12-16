@@ -1,7 +1,7 @@
 from flask import Flask
 
 from models import db
-from blog_api.src import config
+import config
 
 
 def create_app():
