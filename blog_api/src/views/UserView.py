@@ -1,5 +1,5 @@
 from flask import request, json, Response, Blueprint
-from ..models.UserModels import UserModel, UserSchema
+from ..models.UserModel import UserModel, UserSchema
 from ..shared.Authentication import Auth
 
 user_api = Blueprint('users', __name__)
